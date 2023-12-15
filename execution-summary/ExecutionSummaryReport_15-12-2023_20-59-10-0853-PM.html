@@ -35,9 +35,10 @@
                 .piechart1 {
                      display: block;
                      position: relative;
-                     width: 120px;
-                     height: 120px;
+                     width: 100px;
+                     height: 100px;
                      border-radius: 50%;
+                     margin-top: 20px;
                      background-image: conic-gradient(
                         MediumSeaGreen 360.0deg,
                         Tomato 0);
@@ -205,15 +206,18 @@
                     .table100.ver5 .ps__rail-y .ps__thumb-y::before{
                         background-color:#ccc
                     }
+                    .column0{
+                        width:5%;
+                        padding-left:20px
+                    }
                     .column1{
                         width:5%;
-                        padding-left:40px
                     }
                     .column2{
                         width:20%
                     }
                     .column3{
-                        width:35%
+                        width:30%
                     }
                     .column4{
                         width:25%
@@ -222,7 +226,7 @@
                         width:10%
                     }
                     .column6{
-                        width:5%
+                        width:10%
                     }
                     hr.rounded {
                     	border-top: 8px solid #bbb;
@@ -255,36 +259,32 @@
     <h1>Execution Summary Report</h1>
     <br>
     <div class="content">
-        <h2 style="clear:both; padding-top: 15px; margin-bottom: 3px">22/11/2023</h2>
-        <h5 style="clear:both; color:Grey">16:19:27 - 16:20:50 (01 min, 23 sec) </h5>
+        <h2 style="clear:both; padding-top: 15px; margin-bottom: 3px">15/12/2023</h2>
+        <h5 style="clear:both; color:Grey">20:55:54 - 20:59:10 (03 min, 16 sec) </h5>
         <br>
         <div style="border: 1px solid Grey" class="piechart"></div>
         <br>
-        <h2>0.00%</h2>
+        <h2>0.00% Passed</h2>
         <br><br>
-        <h3><b>Total Cases</b>:&nbsp1&nbsp&nbsp[
+        <h3><b>Total Test Cases</b>:&nbsp1&nbsp&nbsp[
             <font style="color:MediumSeaGreen;"><b>Passed:</b>&nbsp0</font>&nbsp|
             <font style="color:Tomato;"><b>Failed:</b>&nbsp1</font>&nbsp|
             <font style="color:Orange;"><b>Skipped:</b>&nbsp0</font>&nbsp]
         </h3>
         <br>
         <hr class="rounded1">
-         <h4><b>Total Validations</b>:&nbsp1&nbsp&nbsp[
+         <h4><b title="&#9432; Validations is the number of executed assertions and verifications that the executed test cases have, as a test case could have many validations. (excluding skipped tests and validations)">&#9432; </b><b>Total Executed Validations</b>:&nbsp1&nbsp&nbsp[
             <font style="color:MediumSeaGreen;"><b>Passed:</b>&nbsp1</font>&nbsp|
             <font style="color:Tomato;"><b>Failed:</b>&nbsp0</font>&nbsp]
         </h4>
-        <br>
         <div class="piechart1"></div>
-        <br>
-        <h4>100.00%</h4>
-        <br>
+        <h5 style="padding-top: 5px;">100.00% Passed</h5>
         <hr class="rounded1">
-        <h5><b>Total Issues</b>:&nbsp1&nbsp&nbsp[
-            <font style="color:Tomato;"><b>No Open issues for Failed Tests:</b>&nbsp1</font>&nbsp|
-            <font style="color:Orange;"><b>Open issues for Passed Tests:</b>&nbsp0</font>&nbsp|
-            <font style="color:MediumSeaGreen;"><b>Open issues for Failed Tests:</b>&nbsp0</font>&nbsp]
+        <h5><b title="&#9432; Issues are problems that may relate to the tests and should be investigated further to open or close bugs; Issues are divided between the three following categories. (directly related to the @Issue annotation)">&#9432; </b><b>Total Issues</b>:&nbsp1&nbsp&nbsp[
+            <font style="color:Tomato;"><b title="&#9432; Defining the Failed tests that are not linked to bugs. (need to investigate and if needed, open new bugs and link them to the related tests using the @Issue annotation)">&#9432; </b><b>Tests that should Pass:</b>&nbsp1</font>&nbsp|
+            <font style="color:Orange;"><b title="&#9432; Defining the Passed tests that are already linked to open bugs. (need to investigate and remove the @Issue annotation and close the bug as the bug should be aready resolved)">&#9432; </b><b>Tests Resolved:</b>&nbsp0</font>&nbsp|
+            <font style="color:MediumSeaGreen;"><b title="&#9432; Defining the Failed tests that are already linked to open bugs (using the @Issue annotation).">&#9432; </b><b>Tests that Fail as Expected:</b>&nbsp0</font>&nbsp]
         </h5>
-        <br>
         <hr class="rounded">
         <h4 style="display:inline;">Test Cases Details</h4>
         <div class="limiter">
@@ -307,15 +307,16 @@
         <table>
         <thead>
         <tr class="row100 head">
+        <th class="cell100 column0"></th>
         <th class="cell100 column1">Id</th>
         <th class="cell100 column2">Suite</th>
         <th class="cell100 column3">Name</th>
         <th class="cell100 column4">Error</th>
         <th class="cell100 column5">Status</th>
-        <th class="cell100 column6">Has issue</th>
+        <th class="cell100 column6">issue id</th>
         </tr>
         </thead>
-        <tbody id="table"><tr class="row100 body"><td class="cell100 column1">1</td><td class="cell100 column2">Test.Payfort.Payfort_kuwait</td><td class="cell100 column3">Knet_kuwait_payfort</td><td class="cell100 column4">Database Action "CreateConnection" failed. With the following test data "jdbc:postgresql://dev-database-v2.csm6dywjcf4g.eu-central-1.rds.amazonaws.com:5432/payment_sandbox". Root cause: "org.postgresql.util.PSQLException: Connection attempt timed out."</td><td class="cell100 column5">&#10060; FAILED</td><td class="cell100 column6">No</td></tr></tbody>
+        <tbody id="table"><tr class="row100 body"><td class="cell100 column0">1</td><td class="cell100 column1"></td><td class="cell100 column2">Test.Tap.Tap_Bahrain</td><td class="cell100 column3">Visa_Bahrain_Tap</td><td class="cell100 column4">Database Action "CreateConnection" failed. With the following test data "jdbc:postgresql://dev-database-v2.csm6dywjcf4g.eu-central-1.rds.amazonaws.com:5432/payment_qa". Root cause: "org.postgresql.util.PSQLException: Connection attempt timed out."</td><td class="cell100 column5">&#10060; FAILED</td><td class="cell100 column6"></td></tr></tbody>
         </table>
         <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div></div>
         <br>

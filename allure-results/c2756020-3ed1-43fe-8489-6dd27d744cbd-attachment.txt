@@ -1,0 +1,36 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                              Test Method: 'Test.Tap.Tap_Bahrain.Visa_Bahrain_Tap'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @15-12-2023 20:55:59.0328 PM
+[ReportManager] Expected "true", and actual "true" @15-12-2023 20:55:59.0362 PM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "true" and Actual "true". Comparison Type "EQUALS". Validation Type "POSITIVE". @15-12-2023 20:56:01.0224 PM
+[ReportManager] Assertion Passed: Evaluating that the response is successful (Status code is between 200 and 299). @15-12-2023 20:56:01.0225 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1702662959608_Visa_Bahrain_Tap_ValidateEquals_passed' @15-12-2023 20:56:01.0235 PM
+[ReportManager] Request details:  "POST | Target Status Code: 0 | Service URL: https://payment-api.qa.svc.jahez.net/api/app/payment-order | Content Type: application/json | Response Time: 4739ms". @15-12-2023 20:56:01.0263 PM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @15-12-2023 20:56:01.0264 PM
+[ReportManager] Successfully created attachment 'API Request - Body' @15-12-2023 20:56:01.0264 PM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @15-12-2023 20:56:01.0351 PM
+[ReportManager] Get response jsonvalue "$.redirectUrl". @15-12-2023 20:56:01.0408 PM
+[ReportManager] Target URL: "https://payment-blazor.qa.svc.jahez.net/payment/NVwvLUlWsw?culture=en&__tenant=3a070412-6c55-04e0-3ee5-e2438d7a5765" @15-12-2023 20:56:01.0410 PM
+[ReportManager] Initial URL: "about:blank" @15-12-2023 20:56:01.0422 PM
+[ReportManager] Navigate to url "https://payment-blazor.qa.svc.jahez.net/payment/NVwvLUlWsw?culture=en&__tenant=3a070412-6c55-04e0-3ee5-e2438d7a5765". @15-12-2023 20:56:22.0725 PM
+[ReportManager] Switch to iframe "By.id: tap-card-iframe" against "Secure payment input". @15-12-2023 20:56:32.0828 PM
+[ReportManager] text cleared Using Native Clear @15-12-2023 20:56:32.0909 PM
+[ReportManager] Type "4508750015741019" into "By.xpath: //input[@id='card_input_mini']". @15-12-2023 20:56:33.0028 PM
+[ReportManager] text cleared Using Native Clear @15-12-2023 20:56:33.0099 PM
+[ReportManager] Type "01/39" into "Payments". @15-12-2023 20:56:33.0123 PM
+[ReportManager] text cleared Using Native Clear @15-12-2023 20:56:33.0179 PM
+[ReportManager] Type "100" into "logo". @15-12-2023 20:56:33.0196 PM
+[ReportManager] Switch to default content. @15-12-2023 20:56:33.0205 PM
+[ReportManager] Moved the mouse to the middle of the element. @15-12-2023 20:56:33.0351 PM
+[ReportManager] Click "PAY". @15-12-2023 20:56:33.0373 PM
+[ReportManager] Moved the mouse to the middle of the element. @15-12-2023 20:56:55.0106 PM
+[ReportManager] Click "By.xpath: //input[@type='submit']". @15-12-2023 20:56:55.0147 PM
+[ReportManager] Get response jsonvalue "$.id". @15-12-2023 20:57:25.0157 PM
+[ReportManager] Database Action "CreateConnection" failed. With the following test data "jdbc:postgresql://dev-database-v2.csm6dywjcf4g.eu-central-1.rds.amazonaws.com:5432/payment_qa". @15-12-2023 20:57:55.0341 PM
+[ReportManager] Successfully created attachment 'Database Action Exception - CreateConnection - Stacktrace' @15-12-2023 20:57:55.0342 PM
+[ReportManager] Database Action "CreateConnection" failed. With the following test data "jdbc:postgresql://dev-database-v2.csm6dywjcf4g.eu-central-1.rds.amazonaws.com:5432/payment_qa". Root cause: "org.postgresql.util.PSQLException: Connection attempt timed out." @15-12-2023 20:57:55.0343 PM
+[ReportManager] Successfully created attachment 'Database actions - Get  stack  trace - Exception Stacktrace' @15-12-2023 20:57:55.0344 P

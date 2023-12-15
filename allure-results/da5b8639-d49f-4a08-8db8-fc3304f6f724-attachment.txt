@@ -1,0 +1,242 @@
+[INFO ] 2023-12-15 20:55:48.274 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231211[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-15 20:55:48.279 [main] ReportManager - Checking for engine updates...
+[DEBUG] 2023-12-15 20:55:49.589 [main] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2023-12-15 20:55:49.707 [main] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2023-12-15 20:55:50.060 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-12-15 20:55:50.060 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-12-15 20:55:50.060 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-12-15 20:55:50.061 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-12-15 20:55:50.061 [main] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2023-12-15 20:55:50.061 [main] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.061 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.061 [main] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.061 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.061 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.061 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.061 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.061 [main] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2023-12-15 20:55:50.061 [main] headers - >> Accept: */*
+[DEBUG] 2023-12-15 20:55:50.062 [main] headers - >> Host: api.github.com
+[DEBUG] 2023-12-15 20:55:50.062 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-12-15 20:55:50.062 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+[DEBUG] 2023-12-15 20:55:50.062 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-12-15 20:55:50.375 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "Server: GitHub.com[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "Date: Fri, 15 Dec 2023 17:55:50 GMT[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "Vary: Accept, Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "ETag: W/"a5e0e8d379d731aaad6801d3a032c9fff38141577cbf6140fe9330e80b5cb9c9"[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "Last-Modified: Mon, 11 Dec 2023 10:19:10 GMT[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.377 [main] wire -  << "X-RateLimit-Remaining: 59[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.378 [main] wire -  << "X-RateLimit-Reset: 1702666550[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.378 [main] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.378 [main] wire -  << "X-RateLimit-Used: 1[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.378 [main] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.378 [main] wire -  << "Content-Length: 844[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.378 [main] wire -  << "X-GitHub-Request-Id: DB10:2C84F4:8C57ADF:8E126FE:657C9326[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.378 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-12-15 20:55:50.378 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2023-12-15 20:55:50.378 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2023-12-15 20:55:50.378 [main] headers - << Server: GitHub.com
+[DEBUG] 2023-12-15 20:55:50.378 [main] headers - << Date: Fri, 15 Dec 2023 17:55:50 GMT
+[DEBUG] 2023-12-15 20:55:50.378 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2023-12-15 20:55:50.378 [main] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2023-12-15 20:55:50.378 [main] headers - << Vary: Accept, Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2023-12-15 20:55:50.378 [main] headers - << ETag: W/"a5e0e8d379d731aaad6801d3a032c9fff38141577cbf6140fe9330e80b5cb9c9"
+[DEBUG] 2023-12-15 20:55:50.378 [main] headers - << Last-Modified: Mon, 11 Dec 2023 10:19:10 GMT
+[DEBUG] 2023-12-15 20:55:50.378 [main] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2023-12-15 20:55:50.378 [main] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2023-12-15 20:55:50.378 [main] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2023-12-15 20:55:50.378 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2023-12-15 20:55:50.378 [main] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2023-12-15 20:55:50.379 [main] headers - << X-Frame-Options: deny
+[DEBUG] 2023-12-15 20:55:50.379 [main] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2023-12-15 20:55:50.379 [main] headers - << X-XSS-Protection: 0
+[DEBUG] 2023-12-15 20:55:50.379 [main] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2023-12-15 20:55:50.379 [main] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2023-12-15 20:55:50.379 [main] headers - << Content-Encoding: gzip
+[DEBUG] 2023-12-15 20:55:50.379 [main] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2023-12-15 20:55:50.379 [main] headers - << X-RateLimit-Remaining: 59
+[DEBUG] 2023-12-15 20:55:50.379 [main] headers - << X-RateLimit-Reset: 1702666550
+[DEBUG] 2023-12-15 20:55:50.379 [main] headers - << X-RateLimit-Resource: core
+[DEBUG] 2023-12-15 20:55:50.379 [main] headers - << X-RateLimit-Used: 1
+[DEBUG] 2023-12-15 20:55:50.379 [main] headers - << Accept-Ranges: bytes
+[DEBUG] 2023-12-15 20:55:50.379 [main] headers - << Content-Length: 844
+[DEBUG] 2023-12-15 20:55:50.379 [main] headers - << X-GitHub-Request-Id: DB10:2C84F4:8C57ADF:8E126FE:657C9326
+[DEBUG] 2023-12-15 20:55:50.385 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2023-12-15 20:55:50.386 [main] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5][0x96]mo[0xd3]0[0x10][0xc7][0xbf]J[0x14]4![0x95]6[0xa9][0x93]lt[0x91][0x10]0[0xba][0x7]^l[0xd3][0xc6]$$[0x1e]T][0x12]718[0xb6]e;[0x1d][0xa5][0xda]w[0xe7][0x9c]f"
+[DEBUG] 2023-12-15 20:55:50.386 [main] wire -  << "[0xd3][0x16]A[0x7][0x14]4i[0xf5]<[0xfb]ww[0xdf]CW~[0xa3][0xb9][0x9f][0xfa][0x95][0xb5][0xca][0xa4]a[0x8][0x8a][0x5]%[0xb3]U[0x93][0x5][0xb9][0xac]CM[0x95]4[0xe1][0xbb][\n]"
+[DEBUG] 2023-12-15 20:55:50.386 [main] wire -  << "[0xe6][0xf6][0xe4]"|w[0xf2][0xfa][0xe8]jvxv[0xfc][0xf6][0xec][0x10][0xff][0xc5])[0x18]jB[0x12][0xc7][0xf1]$[0x8e][0x92][0x89]?[0xf4][0xc1][0x18]j[0xcd][0xec][0xdf]1[0xc3]5[0x11][0xd1][0x8d][0xe2][0x12][0x8a][0x1e]z[0xbd]i[0xfe][0xda][0xe5][0xe][0xbf]z)[0xa0][0xa6]C[0xe][0x19][0xe5]7h[0xab][0xb2]5[0xef]Y[0xba]'[0xca]f9,[0x94][0xe1][0xf3] [0x9][0xa2]q[0x14][0x93][0x88][0x10][0xc4][0xb1][0xc2]O[0xef]TB[0x91][0x1a][I[0xed][0xa7]+[0x9f][0xcb][0x92][0x9]T[\r][0x1f]An[0x99][0x14][0xe6]c&[0xed][0xe7][0xee]ZB&[0xfb][0x93]h[0x12][\r]}![0xb]:s$[0xff]tz[0xba]wQ[0xef][0x8f][0xcf][0xa6][0x87][0xc9][0xf9]U[0xb9]<[0x9f][0xbe]}[0xe1][0xb4]_[0x80][0x5][0xdd][0xd7][0xbe][0xdd][0xbc][0x15][0xa8]1T[0xe7]RX*l[0xfb][0xbc]L[0x84]d7[0xde][0x9b][0xbc]\[0xbc]H[0x90]P[0xea][0x8e][0xd1][0x9a]q[0x9a]o[0xca][\r][0x7]3[0xe1]C[0xd7]wv[0xf][0xd0][0xf9][0x9d][0xdd][0xe9][0xa3]"[0x82]R[0xfd][0xcb]xg.9[0x97][0xd7][0xc8][0xed][0x87][0xf1]0-7[0x9a][0xe][0xef] w@&[0xca][0xed][0x81][0x8]Y[0x85][0xd2]V[0x14]5[0xc6][0xd0]][0x9e][0x94][0xcc]<[0x96][0xed][0x9b]]m[0x1]+[0x14][0xd1]X|[[0x87]4[0xf8]\[0x9a][0xf6][0xf3][0xbc]W[0x96][0x9b][0xa1][0x1d][0x2][0x9d][0xbd][0x16][0xe8][0xe7][0xaa][0xad][0xe2][0x96][0xdd]d&[0xd7]L[0xb5]Y[0xb6][0x8d] [0xf]@[0x8][0x96][0xba][0x4][0xc1][0xbe][0xc3][0xd6]`[0x4][0x19][0xe4][0xb5]mg[0x1b][0x7][[0x0][0x82][0xe8][0x2]S}+[0xd2][0x9a][0xb0][\n]"
+[DEBUG] 2023-12-15 20:55:50.386 [main] wire -  << "[0x95]f[0xb][0xc8][0x97]NFMs[0xca][0x16][0xf8]F[0xdb][0xd3]{([0x84][0xdb][0xa5][0xa2]X|[0x7][0xd2][0xba][0x7]c[0x96][0xce][0xa0][0xa8]][0x93][0x98][0x3]7[0xf4][0xe6]~[0x1f][0xb8]<[0x9c]}[0xbd][0x9e][0x9e][0xbf]9[0xa6]W{&9[0x99][0x8c]//[0x1c][0x0][0xca][0x99][0xeb]f[0x8][0xe9][0xb5]![0xcc][0xac][0x92][0xda][0x19][0x16]~[0xcd],3[0x15][0x9e][0xa8][0x1][0xd1][0xc8][0xfc][0xe9][0xf9]Bc[0xdb][0xef][0xc][0xf]}[0xa5]i[0xd7][0xf2][0xef][0xb6]rM[0xc1][0xa2][0xe][0x80][0xa7]|[0xd7][0xef]F$[0x1a][0x11]rE[0xc6])[0x99][0xa4]I[0xfc][0x1][0xd1][0xaa][0xc9]8[0xda][0xfa][0xc5][0xa9][0xfd][0x94][0x8c][0xdd][0xa9][0xae][0xcb][0xa7][0x1f]?[0xbb][0x0]t[0x6][0xbc][0xdf]0u[0xf7][0xfb]M[0xf8];S[a[0xbb][0xfb]}l&[0x8b]%F[0xff][0xe4][0x89][0xf7][0xbe][0x2][0xfb][0xd4]xo*[0x10]%->[0x89][0x81]w[0xd0][0xd4][0xca]c2[0xd0][0xd4][0xd8][0x11][0x86][0xd8]`a[0xa7][0xf7][0xff][0xf0][0xe6]Z[0xd6][0xde]n[0x10][0x7][0x91]g%.[0x92]`[0xec]eK[0xef]UA[0x15][0x15][0x5]`/[0xf5][0x98][0xf0]n[0x87][0xf3]c3H5[0x9c][0x87]$![0xe4][0x97][0xc6][0xbf][0x18])F&[0xaf]h[\r][0xa3][0x5]pV[0x80][0x95][0xfa]?y[0x11]9/[0x8e][0xd8]7[0xaf]n[0xb8]e[0xde][0x17][0xd0][0x9e][0xc2]h[0x19][0xea]@[0xdb] Oe[0x5][0x19][0xfe]b[0xf4]o[0x82][0x8c]?[0x9][0xf7]3[0x18][0x1c]a[0xd4][0x9d][0xea]8O[0x7][0x83][0xf4][0xb7][0xf5][0xc2]JP[0xa0][0xe9][0xfd]'[0x1d][0x7]A[0xd0]+[0x1b]L[0xf2][0xf5]\v[0x13]{[0xe3]D[0xfc][0xa3]oK[0xd8][0x95]o[0xb9][0x98][0xf3][0xd2][0x2][0xc7][0xca]l[0x4][0x96][0x12][0x19][0xfa][0xcf]H[0xfb]1[0xc2][0x8f][0xf1][0xd0][0xe7][0xd0][0x94]X[0xad][0xb8][0xaa][0xa4][0xd4][0x80][0xf9][0x86]K[0x9c][0xe3]s[0x9c][0x3]8[0xa9][0xdd]>[0x5][0x8d]7q[0xa5]e[0xfe][0x95][0xae][0x97]tI[\r][0xee]a[0xcf][0xa8][0xb1][0xb][0xb6]=[0xbf][0xb3][0x10][0xdd][0xfc][0x0][0x1f]q[0x12][0xc6][0xf8][0x9][0x0][0x0]"
+[DEBUG] 2023-12-15 20:55:50.386 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2023-12-15 20:55:50.428 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@33986be7
+[DEBUG] 2023-12-15 20:55:50.428 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2023-12-15 20:55:50.729 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:58034<->140.82.121.6:443 closed
+[INFO ] 2023-12-15 20:55:50.767 [main] ReportManager - You're using the latest engine version "7.4.20231211". 👍
+[INFO ] 2023-12-15 20:55:50.768 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative File Path: "target/engine_check"".
+[INFO ] 2023-12-15 20:55:50.768 [main] ReportManager - File Action "WriteToFile" successfully performed. With the following test data "Target File Path: "/Users/tantawy/Desktop/Tantawy/AutomationProjects/PaymentServiceGithub/payment/target/engine_check"".
+[INFO ] 2023-12-15 20:55:51.472 [main] ReportManager - Loaded OpenCV "opencv_java481".
+[INFO ] 2023-12-15 20:55:51.472 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-12-15 20:55:51.493 [main] ReportManager - Executing: "chmod u+x generate_allure_report.sh" locally.
+[INFO ] 2023-12-15 20:55:51.515 [main] ReportManager - Terminal Action "PerformTerminalCommands" successfully performed. With the following test data "Host Name: "localHost" | Command: "chmod u+x generate_allure_report.sh" | Exit Status: "0"".
+[INFO ] 2023-12-15 20:55:51.551 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative File Path: "allure-results/environment.xml"".
+[INFO ] 2023-12-15 20:55:51.554 [main] ReportManager - File Action "WriteToFile" successfully performed. With the following test data "Target File Path: "/Users/tantawy/Desktop/Tantawy/AutomationProjects/PaymentServiceGithub/payment/allure-results/environment.xml"".
+[INFO ] 2023-12-15 20:55:51.555 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-12-15 20:55:51.696 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-12-15 20:55:51.704 [main] ReportManager - TestNG run detected...
+[INFO ] 2023-12-15 20:55:51.796 [main] ReportManager - Setting "targetOperatingSystem" property with "mac".
+[INFO ] 2023-12-15 20:55:51.803 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--window-position=0,0, --window-size=1920,1080, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: /Users/tantawy/Desktop/Tant..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-12-15 20:55:51.803 [main] ReportManager - Attempting to run locally on: "mac | Chrome".
+[INFO ] 2023-12-15 20:55:51.804 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2023-12-15 20:55:54.383 [main] ReportManager - Successfully Opened: "mac | Chrome".
+[ERROR] 2023-12-15 20:55:54.384 [main] AllureLifecycle - Could not start step: no test case running
+[ERROR] 2023-12-15 20:55:54.390 [main] AllureLifecycle - Could not stop step: step with uuid de46ae19-dc43-4533-950c-8b7adb085480 not found
+[INFO ] 2023-12-15 20:55:54.438 [main] Utils - [TestNG] Running:
+  /Users/tantawy/Library/Caches/JetBrains/IdeaIC2023.3/temp-testng-customsuite.xml
+
+[INFO ] 2023-12-15 20:55:54.449 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-15 20:55:54.457 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-12-15 20:55:54.460 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-12-15 20:55:54.509 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                              Test Method: 'Test.Tap.Tap_Bahrain.Visa_Bahrain_Tap'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2023-12-15 20:55:54.594 [main] BasicClientConnectionManager - Get connection for route {s}->https://payment-api.qa.svc.jahez.net:443
+[DEBUG] 2023-12-15 20:55:54.868 [main] DefaultClientConnectionOperator - Connecting to payment-api.qa.svc.jahez.net:443
+[DEBUG] 2023-12-15 20:55:55.307 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-12-15 20:55:55.307 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-12-15 20:55:55.307 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-12-15 20:55:55.307 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-12-15 20:55:55.307 [main] DefaultClientConnection - Sending request: POST /api/app/payment-order HTTP/1.1
+[DEBUG] 2023-12-15 20:55:55.307 [main] wire -  >> "POST /api/app/payment-order HTTP/1.1[\r][\n]"
+[DEBUG] 2023-12-15 20:55:55.307 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2023-12-15 20:55:55.307 [main] wire -  >> "Accept-Language: en[\r][\n]"
+[DEBUG] 2023-12-15 20:55:55.307 [main] wire -  >> "__tenant: 3a070412-6c55-04e0-3ee5-e2438d7a5765[\r][\n]"
+[DEBUG] 2023-12-15 20:55:55.307 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2023-12-15 20:55:55.307 [main] wire -  >> "Content-Length: 494[\r][\n]"
+[DEBUG] 2023-12-15 20:55:55.308 [main] wire -  >> "Host: payment-api.qa.svc.jahez.net[\r][\n]"
+[DEBUG] 2023-12-15 20:55:55.308 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-12-15 20:55:55.308 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)[\r][\n]"
+[DEBUG] 2023-12-15 20:55:55.308 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-12-15 20:55:55.308 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2023-12-15 20:55:55.308 [main] headers - >> POST /api/app/payment-order HTTP/1.1
+[DEBUG] 2023-12-15 20:55:55.308 [main] headers - >> Accept: */*
+[DEBUG] 2023-12-15 20:55:55.308 [main] headers - >> Accept-Language: en
+[DEBUG] 2023-12-15 20:55:55.308 [main] headers - >> __tenant: 3a070412-6c55-04e0-3ee5-e2438d7a5765
+[DEBUG] 2023-12-15 20:55:55.308 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2023-12-15 20:55:55.308 [main] headers - >> Content-Length: 494
+[DEBUG] 2023-12-15 20:55:55.308 [main] headers - >> Host: payment-api.qa.svc.jahez.net
+[DEBUG] 2023-12-15 20:55:55.308 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-12-15 20:55:55.308 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+[DEBUG] 2023-12-15 20:55:55.308 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-12-15 20:55:55.308 [main] wire -  >> "{"channelId":"3a0d3483-e9c9-1e00-37b3-c36641d69746","divisionId":"3a0f508d-f1c2-ecdb-dca5-d14bfd7a651f","type":"Regular","totalAmount":400.2,"customerReference":"1105554752","customerName":"Tantawi","customerPhone":"568018870","customerEmail":"meltantawy1-e@jahez.net","reference":"1d621c5d-b745-4716-b4f2-5bfe5205c7d3","successUrl":"https://jahezco.atlassian.net/wiki/spaces/PAY/pages/544964634/Create+Division","failureUrl":"https://guidgenerator.com/online-guid-generator.aspx","amount":0.0}"
+[DEBUG] 2023-12-15 20:55:59.303 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2023-12-15 20:55:59.304 [main] wire -  << "Date: Fri, 15 Dec 2023 17:55:59 GMT[\r][\n]"
+[DEBUG] 2023-12-15 20:55:59.304 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2023-12-15 20:55:59.304 [main] wire -  << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2023-12-15 20:55:59.304 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-12-15 20:55:59.304 [main] wire -  << "Set-Cookie: __tenant=3a070412-6c55-04e0-3ee5-e2438d7a5765; expires=Thu, 15 Dec 2033 17:55:58 GMT; path=/; samesite=lax[\r][\n]"
+[DEBUG] 2023-12-15 20:55:59.304 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-12-15 20:55:59.305 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2023-12-15 20:55:59.305 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2023-12-15 20:55:59.305 [main] headers - << Date: Fri, 15 Dec 2023 17:55:59 GMT
+[DEBUG] 2023-12-15 20:55:59.305 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2023-12-15 20:55:59.305 [main] headers - << Transfer-Encoding: chunked
+[DEBUG] 2023-12-15 20:55:59.305 [main] headers - << Connection: keep-alive
+[DEBUG] 2023-12-15 20:55:59.305 [main] headers - << Set-Cookie: __tenant=3a070412-6c55-04e0-3ee5-e2438d7a5765; expires=Thu, 15 Dec 2033 17:55:58 GMT; path=/; samesite=lax
+[DEBUG] 2023-12-15 20:55:59.310 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2023-12-15 20:55:59.310 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2023-12-15 20:55:59.329 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2023-12-15 20:55:59.362 [main] ReportManager - Expected "true", and actual "true"
+[INFO ] 2023-12-15 20:56:01.224 [main] ReportManager - Assertion "ValidateEquals" PASSED. Expected "true" and Actual "true". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-12-15 20:56:01.235 [main] ReportManager - Successfully created attachment 'Screenshot - 1702662959608_Visa_Bahrain_Tap_ValidateEquals_passed'
+[DEBUG] 2023-12-15 20:56:01.237 [main] wire -  << "ee[\r][\n]"
+[DEBUG] 2023-12-15 20:56:01.237 [main] wire -  << "{"id":"3a0f80cb-c808-73c0-a169-2e16008716c2","status":"Pending","totalAmount":400.2,"idempotencyKey":null,"redirectUrl":"https://payment-blazor.qa.svc.jahez.net/payment/NVwvLUlWsw?culture=en&__tenant=3a070412-6c55-04e0-3ee5-e2438d7a5765"}"
+[DEBUG] 2023-12-15 20:56:01.237 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-12-15 20:56:01.237 [main] wire -  << "0[\r][\n]"
+[DEBUG] 2023-12-15 20:56:01.237 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-12-15 20:56:01.237 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@148b13e5
+[DEBUG] 2023-12-15 20:56:01.237 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2023-12-15 20:56:01.264 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[INFO ] 2023-12-15 20:56:01.264 [main] ReportManager - Successfully created attachment 'API Request - Body'
+[DEBUG] 2023-12-15 20:56:01.281 [main] cache - Couldn't find template in cache for "codeblock.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-15 20:56:01.282 [main] cache - TemplateLoader.findTemplateSource("codeblock_en_EG.ftl"): Not found
+[DEBUG] 2023-12-15 20:56:01.282 [main] cache - TemplateLoader.findTemplateSource("codeblock_en.ftl"): Not found
+[DEBUG] 2023-12-15 20:56:01.282 [main] cache - TemplateLoader.findTemplateSource("codeblock.ftl"): Found
+[DEBUG] 2023-12-15 20:56:01.282 [main] cache - Loading template for "codeblock.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/tantawy/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/markup/codeblock.ftl"
+[DEBUG] 2023-12-15 20:56:01.340 [main] cache - Couldn't find template in cache for "codeblock.json.ftl"("en_EG", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-12-15 20:56:01.340 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en_EG.ftl"): Not found
+[DEBUG] 2023-12-15 20:56:01.340 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en.ftl"): Not found
+[DEBUG] 2023-12-15 20:56:01.340 [main] cache - TemplateLoader.findTemplateSource("codeblock.json.ftl"): Found
+[DEBUG] 2023-12-15 20:56:01.340 [main] cache - Loading template for "codeblock.json.ftl"("en_EG", UTF-8, parsed) from "jar:file:/Users/tantawy/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/markup/codeblock.json.ftl"
+[INFO ] 2023-12-15 20:56:01.351 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[DEBUG] 2023-12-15 20:56:01.407 [main] CompiledPath - Evaluating path: $['redirectUrl']
+[INFO ] 2023-12-15 20:56:01.408 [main] ReportManager - Get response jsonvalue "$.redirectUrl".
+[INFO ] 2023-12-15 20:56:01.410 [main] ReportManager - Target URL: "https://payment-blazor.qa.svc.jahez.net/payment/NVwvLUlWsw?culture=en&__tenant=3a070412-6c55-04e0-3ee5-e2438d7a5765"
+[INFO ] 2023-12-15 20:56:01.422 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-12-15 20:56:22.725 [main] ReportManager - Navigate to url "https://payment-blazor.qa.svc.jahez.net/payment/NVwvLUlWsw?culture=en&__tenant=3a070412-6c55-04e0-3ee5-e2438d7a5765".
+[INFO ] 2023-12-15 20:56:32.828 [main] ReportManager - Switch to iframe "By.id: tap-card-iframe" against "Secure payment input".
+[INFO ] 2023-12-15 20:56:32.909 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2023-12-15 20:56:33.028 [main] ReportManager - Type "4508750015741019" into "By.xpath: //input[@id='card_input_mini']".
+[INFO ] 2023-12-15 20:56:33.099 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2023-12-15 20:56:33.123 [main] ReportManager - Type "01/39" into "Payments".
+[INFO ] 2023-12-15 20:56:33.179 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2023-12-15 20:56:33.196 [main] ReportManager - Type "100" into "logo".
+[INFO ] 2023-12-15 20:56:33.205 [main] ReportManager - Switch to default content.
+[INFO ] 2023-12-15 20:56:33.351 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-15 20:56:33.373 [main] ReportManager - Click "PAY".
+[INFO ] 2023-12-15 20:56:55.106 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-12-15 20:56:55.147 [main] ReportManager - Click "By.xpath: //input[@type='submit']".
+[DEBUG] 2023-12-15 20:57:25.152 [main] CompiledPath - Evaluating path: $['id']
+[INFO ] 2023-12-15 20:57:25.157 [main] ReportManager - Get response jsonvalue "$.id".
+[INFO ] 2023-12-15 20:57:55.342 [main] ReportManager - Successfully created attachment 'Database Action Exception - CreateConnection - Stacktrace'
+[INFO ] 2023-12-15 20:57:55.344 [main] ReportManager - Successfully created attachment 'Database actions - Get  stack  trace - Exception Stacktrace'
+[INFO ] 2023-12-15 20:57:55.347 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Visa_Bahrain_Tap'
+[INFO ] 2023-12-15 20:57:55.347 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                   Finished Execution of Test Method: 'Test.Tap.Tap_Bahrain.Visa_Bahrain_Tap'                                   
+                                                              Test Status: 'Failed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-15 20:57:55.390 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of close browser configuration method                                            
+                                                       'Test.Tap.Tap_Bahrain.closeBrowser'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-15 20:59:10.718 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-12-15 20:59:10.720 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[INFO ] 2023-12-15 20:59:10.720 [main] ReportManager - Driver is already closed.
+[INFO ] 2023-12-15 20:59:10.721 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-12-15 20:59:10.721 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-12-15 20:59:10.722 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-12-15 20:59:10.726 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

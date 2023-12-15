@@ -1,0 +1,157 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="head1"><title>
+	Tap Payments
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-barstyle" content="black-translucent"><meta name="mobile-web-app-capable" content="yes"><meta id="metaTitle" name="og:title" property="og:title" content="Tap Payments"><meta id="metaDesc" name="og:description" property="og:description" content="Tap"><meta id="idtwitterdesc" name="twitter:description" content="Tap simplifies online payment acceptance &amp; collection for businesses with an easy, quick &amp; secure experience for people paying on websites &amp; apps."><meta id="idtwittertitle" name="twitter:title" content="Tap - Online Payment Services"><meta id="iddesc" name="description" content="Tap simplifies online payment acceptance &amp; collection for businesses with an easy, quick &amp; secure experience for people paying on websites &amp; apps."><meta id="idsubtitle" name="subtitle" content="Online Payment Services"><link id="lnkimg" rel="shortcut icon" href="https://www.register.tap.company/images/VND75.ico"><link id="lnkimg1" rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.register.tap.company/images/ico/apple-touch-icon-144-precomposed.png"><link id="lnkimg2" rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.register.tap.company/images/ico/apple-touch-icon-114-precomposed.png"><link id="lnkimg3" rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.register.tap.company/images/ico/apple-touch-icon-72-precomposed.png"><link id="lnkimg4" rel="apple-touch-icon-precomposed" href="https://www.register.tap.company/images/ico/apple-touch-icon-57-precomposed.png"><meta id="metaImg" name="og:image" property="og:image" content="https://www.register.tap.company/wp-content/uploads/2016/09/Tap-square.png">
+
+    <script src="../Scripts/jquery-1.10.2.min.js"></script>
+    <link href="../css/loading.css" rel="stylesheet"><link href="../css/styles.css?v=4" rel="stylesheet"><link href="../css/iui.css" rel="stylesheet"><link href="../css/iui_ext.css" rel="stylesheet"><link href="../css/intlTelInput.css?v=1.9" rel="stylesheet" type="text/css"><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <script type="text/javascript">
+        $(document).keypress(
+        function (event) {
+            if (event.which == '13') {
+                event.preventDefault();
+                $("#CreditCardBtn").trigger('click');
+            }
+        })
+    </script>
+
+</head>
+<body id="body" style="padding-top: 1px; background-color: rgb(252, 252, 252);">
+    <div id="formContainer">
+        <form method="post" action="./response.aspx?mpgs_pay=0mDHCEVvTWu8%2boXtoZbQ9icSP0O9x63x&amp;sess=GIC%2bMhzGNTw%3d&amp;token=0mDHCEVvTWu8%2boXtoZbQ9jzeCzbZzkG9" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="gZkuulX8e0hyZP39i/zjICZ8eRdsBVMq7wruc39J83xdOqLyXEQ4afFoTwr8d7wCeZ9kIgfw+dy+pVR5S7yB3VcYlQzY/yH643xjP6wXanOdYZ/XrfsW5Wc9lNR02Vw9vgGlZoiFgW98MxP2u2omHob8AZktmuYaEO5YRpcLKZrxsBllHRG3PkOHyuSx+pU3Krr+p5+1ciEbLm1ON2GDPjgT/Tx3IT2faHcbFpXXiOn7u8/XhiW0TI0XxqO89Znz7yhDiegBZONHe34aHtD/wODeUxWcSc0gR7DDp/AjChE/b/QnG6XWkBuK5G7IXUVXCZIvaD+X+QKKEwyw9ikyNQTO7EatpH6r5tiGYl1jRUd8n88QnR3ufcZ4tqRsY7fcAmsRtl9I4P8IaPKWbihFcqBqX2ZcJ9+nXVM+/YWY+7T53NsMqeM+HOJ2QhznTXy9SzsY/GQT6pBUfw7brCdGLNH3Uy72l/qajoEWs26GUmKLOi5fA+APK2Gw88xfb49Z">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/test_gosell/v2/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZLE95qwurn0y1c2jva27WUcsyOV9PGtQhJ_arF_X0hWXCvznrfdAwvG1TtuS_wVvLA2&amp;t=638286157180000000" type="text/javascript"></script>
+
+
+<script src="/test_gosell/v2/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvsZ9X1xpwpT6Y0Fq3h4Zc_q1pKGbH8TWsOeReNK5kwYZY0692pXSaFvc9vldHTt49bc54-1rMV3aHwMjwPUtZFpvCfKhEu6qkUT0lkmeR5Co8Pu465UoGcTgrKsIqqRMrQzy305AL-GbT2JxMSagaDc1&amp;t=ffffffffa0418512" type="text/javascript"></script>
+<script src="/test_gosell/v2/ScriptResource.axd?d=dwY9oWetJoJoVpgL6Zq8OIUjaMDTFfBQnr91qV4Am13xb5DyqB-uK2llT3gFTlOh8Th5wT1y-2xy4wHlTiEIdnTpfi15yJS_kUoxh52PCBIUXVbtZpRMmadtw2XmHXsRDslyWI6OvE0D2DWG3RK8tPtg0jxrN8BdM0BhaQQlPRI1&amp;t=ffffffffa0418512" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="81D92A6C">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="G7wnTSNkfDzSyXhXh/fSyvZn6BLvZhRL5P+8fvY2gNQ1GBUT533fExHDoDIAHtBFEJYD7yxO25WnaDP7VvF5fkX/iPhMvxNY9hLDtJGtgP4W6auwUtJSh7JJk+ge8MS9SNYnjl9+3fZboEENtfLhvhA/czb/ar/Ny3t50W+Uglc=">
+</div>
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('scriptManager1', 'form1', ['tUpdatePanel','UpdatePanel'], [], [], 200000, '');
+//]]>
+</script>
+
+            <script type="text/javascript">
+                function pageLoad() { Fillinputboxvalues(); $('#paymenttypesdiv').removeClass("disable_a_href"); }
+                function btnaction(id) {
+                    if (id == 1) { $("#knetsubmit").trigger('click'); }
+                    else if (id == 2) { $("#benefitsubmit").trigger('click'); }
+                    else if (id == 3) { $("#CreditCardBtn").trigger('click'); }
+                    else if (id == 4) { $("#tpaysubmit").trigger('click'); }
+                    else if (id == 5) { $("#fawrysubmit").trigger('click'); }
+                    else if (id == 6) { $("#stc_paysubmit").trigger('click'); }
+                    else if (id == 7) { $("#OmanNetsubmit").trigger('click'); }
+                    else if (id == 8) { $("#BCOsubmit").trigger('click'); }
+                }
+            </script>
+            <!-- Start Main Panel -->
+            <div id="divpanel">
+
+                
+
+                <!-- Start Error -->
+                
+                <!-- End Error -->
+                <script type="text/javascript">
+                    function openKnet() {
+
+                    }
+                </script>
+                <div id="UpdatePanel">
+	
+                        <!-- Start Payment Types -->
+                        
+                        <!-- End Payment Types -->
+
+
+                        <!-- Start Payment Confirmation -->
+                        
+                        <!-- End Payment Confirmation -->
+
+                        <!-- start redirect -->
+                        <div id="div_redirect" style="margin-top: 20px; padding: 5px;"><br><br><br><br><br></div>
+                        <!-- end redirect -->
+
+                        <!-- Start loader -->
+                        <div id="divloader" style="margin-top: 20px; padding: 5px;">
+                            <div class="panel" style="height: 50px;">
+                                <p style="position: relative; margin-left: -25px; margin-top: 0px; top: 0%" class="loading"></p>
+                            </div>
+                            <div class="panel" style="height: 30px;"></div>
+                            <div>
+                                <p id="proc1" style="color: #60606a; height: 35px; text-align: center; font-size: 24px; position: relative; font-family: 'Roboto',sans-serif">Redirecting . . .</p>
+                                <p id="proc2" style="color: #60606a; text-align: center; font-size: 14px; position: relative; font-family: 'Roboto',sans-serif">Your payment has been captured. Please wait while you are being redirected. Please do not click refresh or back button.</p>
+                            </div>
+                            
+                        </div>
+                        <!-- Start loader -->
+
+                        <!-- Start Error -->
+                        
+                        <!-- End Error -->
+
+                    
+</div>
+
+                <br>
+                <br>
+                <br>
+                <!-- Start Tap logo in the footer -->
+                
+                <!-- End Tap logo in the footer -->
+                <!-- Start Tap footer -->
+                
+                <!-- End Tap footer -->
+                <div style="height: 5px"></div>
+                <!-- Start Thwate SSL Logo -->
+                
+                <!-- End Thwate SSL Logo -->
+                <br>
+            </div>
+            <!-- End Main Panel -->
+
+            <input name="hdncardtype" type="hidden" id="hdncardtype">
+            <input name="error_msg" type="hidden" id="error_msg">
+            <input name="hdnreference" type="hidden" id="hdnreference" value="0mDHCEVvTWu8+oXtoZbQ9icSP0O9x63x">
+        
+<script>$(window).load(function () { setTimeout('redirecttomerchantwebsite()', 500); });    function redirecttomerchantwebsite() { location.href = 'https://payment-blazor.qa.svc.jahez.net/tap/response/3a0f80cb-c808-73c0-a169-2e16008716c2/?__tenant=3a070412-6c55-04e0-3ee5-e2438d7a5765&tap_id=chg_TS02A3820232056a2TP1512360'; }</script></form>
+    </div>
+    <!-- Start CC Payment Processing -->
+    <div>
+        
+    </div>
+    <!-- End CC Payment Processing -->
+
+    <script src="../Scripts/pay.js?v=1.2.9" type="text/javascript"></script>
+    <script src="../Scripts/tap.js?v=1.2.9" type="text/javascript"></script>
+    <script src="../Scripts/intlTelInput.js" type="text/javascript"></script>
+
+
+</body></html>
