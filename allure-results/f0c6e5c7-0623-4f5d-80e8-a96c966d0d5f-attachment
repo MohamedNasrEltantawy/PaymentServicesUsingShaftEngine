@@ -1,0 +1,247 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><meta charset="UTF-8"><meta name="description" content="Free Online GUID / UUID Generator"><meta name="keywords" content="guid, uuid, guid generator, uuid generator, create guids, online guid, online guid generator, globally unique identifier, universal unique identifier, java guid, java uuid, C# guid, C# uuid, globally unique identifier, unique identifier"><meta name="robots" content="index,follow"><title>
+	Free Online GUID Generator
+</title><link rel="icon" type="image/x-icon" href="/images/gears16x16.png"><link rel="stylesheet" href="/css/guidgenerator-styles.css">
+
+   <script>
+      function CopyResults() {
+         var copyText = document.getElementById("txtResults").value;
+         navigator.clipboard.writeText(copyText);
+      }
+   </script>
+
+   <!-- Google tag (gtag.js) -->
+   <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-R20MFRWP4R">
+   </script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+         dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      /*gtag('config', 'G-R20MFRWP4R');*/
+      gtag('config', 'G-R20MFRWP4R', { cookie_flags: 'secure;samesite=none' });
+   </script>
+
+<meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+
+
+<body>
+   <form method="post" action="./online-guid-generator.aspx?code=PS%3aPaymentServiceProviderError" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTA5ODk4NTkzNA9kFgICAw9kFgYCAQ8QZGQWAWZkAh0PDxYCHgRUZXh0BUlCdWlsdCAyMDIzLTExLTIxVDE5OjAwOjQxWiZuYnNwOyZuYnNwOyZuYnNwOyBTdGFydGVkIDIwMjMtMTEtMjFUMjE6NTk6NDVaZGQCHw8PFgIfAAUab25saW5lX2d1aWRfZ2VuZXJhdG9yX2FzcHhkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WBgUJY2hrSHlwZW5zBQxjaGtVcHBlcmNhc2UFC2Noa0JyYWNrZXRzBQljaGtRdW90ZXMFCWNoa0NvbW1hcwUJY2hrQmFzZTY0x5/dHBY6TNb5EJHfXLc8z+4+ZEqe6j6SoCifqUPfzLg=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="247C709F">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAzLIPd3MRt9hMVivoOcEz/dBYLXV0VuZFhJBOtjhcr6Bsvw1EW9MZ9g/wgBB6us7GVqIDVyngBdqOoWxOXb4T35oQ36KGA8tzxS51w8LYte5+6+MxMW2otvrHYn9u7fGXU2DQ2mMD/XP2SDFwIqkPsDC3Uw/61S/zHE1tJRdIhm9Oakz6aBALOLMHS8iPR193iCGMOmKsFAbOCPaNt1vuZEKai3Y3c1yI2lNl3SKe8Yrx7TtUjzJ1xfCtuArluKIKRkew/yzoDKCUdukjvEEhKmP3BTWsodpHQaBpAI2H9l5Q==">
+</div>
+      <div style="width: 48em; background-color: white;">
+         <h1>
+            <a title="Home" href="./">
+               <img src="/images/gears.jpg"></a>
+            &nbsp;Online GUID / UUID Generator
+         </h1>
+         <div class="subheading">
+            <p>
+               Free Online GUID / UUID Generator                 
+            </p>
+         </div>
+
+         <!--
+         <div class="update1">
+            <p>
+               <b>2023-11-13 Status:</b> Apologies for the outage that occurred 2023-11-13 20:44:35 UTC and lasted for approximately 57 minutes.         
+               The issue occured at our hosting service: 
+               <i>"Our team was performing an upgrade on the Inter-switch Link (ISL / Uplink) of the switches within one of our cabinets."</i>
+            </p>
+         </div>
+         <br />
+         -->
+
+         <!-- 
+            <p>
+               <a target="_blank" rel="noopener" title="Open GuidGenerator.com In New Tab" href="https://GuidGenerator.com"><img src="/images/update3.png" /></a>         
+               </p>
+         -->
+
+         <!-- 
+         <div class="update">
+               <p>
+               <b>Update:</b> some users have reported &quot;Server Error: Validation of viewstate&quot; errors. 
+               If you see this message, then re-open             
+               <a target="_blank" rel="noopener" href="https://GuidGenerator.com">https://GuidGenerator.com</a>
+               in a different browser tab and clear all history for this website. <b>Reloading in the same tab will not clear the error, it must be in a different tab.</b>
+               </p>
+               <p>
+               A fix has been deployed, but you may see this message one more time until the page has reloaded. Again, if you see this error then just re-open 
+               <a target="_blank" rel="noopener" href="https://GuidGenerator.com">https://GuidGenerator.com</a>
+               in different browser tab.
+               </p>
+               <p>Thanks for bringing this to our attention, and apologies for any inconvenience.</p>
+          </div>
+         -->
+
+         <div class="optionsSection">
+            How many GUIDs
+                 
+            
+            do you want (1-2000):
+                 
+            <input name="txtCount" type="text" value="1" id="txtCount" class="txtCount" style="width:72pt;">
+            <br>
+
+            Format:&nbsp;&nbsp;
+                 
+            <input id="chkHypens" type="checkbox" name="chkHypens" checked="checked"><label for="chkHypens">Hypens</label>
+            &nbsp;&nbsp;&nbsp;
+                 
+            <input id="chkUppercase" type="checkbox" name="chkUppercase"><label for="chkUppercase">Upper case</label>
+            &nbsp;&nbsp;&nbsp;
+                 
+            <input id="chkBrackets" type="checkbox" name="chkBrackets"><label for="chkBrackets">{} Braces</label>
+            &nbsp;&nbsp;&nbsp;
+                 
+            <input id="chkQuotes" type="checkbox" name="chkQuotes"><label for="chkQuotes">" " Quotes</label>
+            &nbsp;&nbsp;&nbsp;
+                 
+            <input id="chkCommas" type="checkbox" name="chkCommas"><label for="chkCommas">, Commas</label>
+            &nbsp;&nbsp;&nbsp;
+                 
+            <br>
+            Encoding:&nbsp;&nbsp;
+                 
+            <input id="chkBase64" type="checkbox" name="chkBase64" onclick="javascript:setTimeout('__doPostBack(\'chkBase64\',\'\')', 0)"><label for="chkBase64">Base 64</label>
+            <a title="What's Base 64 Encoding?" href="https://en.wikipedia.org/wiki/Base64">?
+            </a>
+            &nbsp;&nbsp;
+                 
+            <span class="aspNetDisabled"><input id="chkRFC7515" type="checkbox" name="chkRFC7515" disabled="disabled"><label for="chkRFC7515">RFC 7515</label></span>
+            <a title="What's RFC 7515 Encoding?" href="https://tools.ietf.org/html/rfc7515#appendix-C">?
+            </a>
+            &nbsp;&nbsp;
+                 
+            <span class="aspNetDisabled"><input id="chkURL" type="checkbox" name="chkURL" disabled="disabled"><label for="chkURL">URL encode</label></span>
+            <a title="What's URL Encoding?" href="https://www.w3schools.com/tags/ref_urlencode.asp">?
+            </a>
+            &nbsp;&nbsp;              
+         </div>
+         <br>
+
+         <input type="submit" name="btnGenerate" value="Generate some GUIDs!" id="btnGenerate" class="button2">
+         <br>
+         <br>
+         <b>Results:
+         </b>
+         &nbsp;
+              
+         <button type="button" onclick="CopyResults()" class="button2">
+            Copy to Clipboard
+              
+         </button>
+         <br>
+         <textarea name="txtResults" rows="2" cols="20" id="txtResults" class="txtResults" style="height:152px;width:681px;"></textarea>
+         <br>
+         <div class="txtDisclaimer">
+            Use these GUIDs at your own risk! No guarantee of their uniqueness or suitability is given or implied.
+            <br>
+         </div>
+         <br>
+
+         <!--
+         <div>
+            <span id="lblFortune" class="txtFortune-dark" style="display:inline-block;width:43.4em;">(click "Generate Some GUIDs!" button to view)</span>
+         </div>
+         <div class="txtFortune-dark" id="txtFortuneTyped" style="display: none;">
+         </div>
+         -->
+         <img src="/images/YourDailyFortune.jpg">
+         <p class="txtFortune-dark">
+            (click "Generate Some GUIDs!" button to view)
+         </p>
+         <br>
+
+         <hr>
+
+         <h2>What is a GUID?
+         </h2>
+         <p>
+            GUID (aka UUID) is an acronym for 'Globally Unique Identifier' (or 'Universally
+                  Unique Identifier'). It is a 128-bit integer number used to identify resources.
+                  The term GUID is generally used by developers working with Microsoft technologies,
+                  while UUID is used commonly used elsewhere.
+              
+         </p>
+         <h2>How are GUIDs used?
+         </h2>
+         <p>
+            GUIDs are used by enterprise software developers, progammers, engineers,
+                  database administrators, and testers in systems and application development
+                  and testing. They are used in Java, C#, Python, C++ , SQL databases, and
+                  non-relational Cloud databases as primary keys, versions, component identifiers,
+                  or just about anywhere else a truly unique identifier is required.&nbsp;
+              
+         </p>
+         <h2>How unique is a GUID?
+         </h2>
+         <p>
+            128-bits is big enough and the generation algorithm is unique enough that
+                  if 1,000,000,000 GUIDs per second were generated for 1 year the probability
+                  of a duplicate would be only 50%. Or if every human on Earth generated
+                  600,000,000 GUIDs there would only be a 50% probability of a duplicate.
+              
+         </p>
+         <h2>More Information About GUIDs
+         </h2>
+         <p>
+            <a href="https://en.wikipedia.org/wiki/Globally_Unique_Identifier">Globally Unique Identifier - Wikipedia, the free encyclopedia
+            </a>
+            <br>
+            <a href="https://docs.microsoft.com/en-us/dotnet/api/system.guid">GUID Structure - Microsoft.com
+            </a>
+            <br>
+            <a href="http://www.ietf.org/rfc/rfc4122.txt">RFC 4122
+            </a>
+            <br>
+         </p>
+         <br>
+         <hr>
+         <span class="txtContactInfo">Contact us: guid dot generator at gmail dot com
+         </span>
+         <br>
+         <br>
+
+         <div class="txtPageInfo">
+            <span id="lblCompileTime" class="txtVersionInfo">Built 2023-11-21T19:00:41Z&nbsp;&nbsp;&nbsp; Started 2023-11-21T21:59:45Z</span>
+            &nbsp;&nbsp;&nbsp;
+            <span id="lblPageName" class="txtVersionInfo">online_guid_generator_aspx</span>
+         </div>
+         <br>
+         <br>
+      </div>
+   </form>
+
+
+
+</body></html>
